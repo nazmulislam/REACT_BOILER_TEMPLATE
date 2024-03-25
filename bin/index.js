@@ -4,11 +4,11 @@ const { program } = require('commander')
 const figlet = require("figlet");
 
 console.log(figlet.textSync("Module Creator"));
-const react = require('./commands/create-app')
+const create = require('../lib/create-app.cjs')
 program
-    .command('react <componentName>')
+    .command('create <componentName>')
     .description('Create react component')
-    .action(react)
+    .action(create)
     .option('-c, --component', 'create the react component')
     .option('-m, --menu', 'create the menu file in react')
     .option('-r, --react_route', 'create the route file in react')
