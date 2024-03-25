@@ -1,0 +1,28 @@
+{
+  "name": "goenterprise-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "todos": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "camel-case": "^4.1.2",
+    "chalk": "^2.4.2",
+    "commander": "^9.4.0",
+    "conf": "^10.2.0",
+    "decamelize": "^6.0.0",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "param-case": "^3.0.4",
+    "pascal-case": "^3.1.2",
+    "snake-case": "^3.0.4"
+  }
+}

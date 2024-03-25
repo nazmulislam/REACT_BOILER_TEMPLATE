@@ -1,0 +1,8 @@
+{
+    "addSample": "/ROUTE/",
+    "updateSample": "/ROUTE/",
+    "getPaginatedSampleList": "/ROUTE/list/paginated",
+    "deleteSample": "/ROUTE/",
+    "getSampleById": "/ROUTE/",
+    "getSelectedSampleById": "/ROUTE/"
+}
