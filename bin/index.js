@@ -19,6 +19,7 @@ program
     .option('-er, --exclude_rbac', 'Do not create RBAC Module')
     .option('-pre, --prefix <value>', 'set the identifiers prefix for the component')
 
+
     program.parse(process.argv);
     
    
